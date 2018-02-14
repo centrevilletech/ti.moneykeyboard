@@ -1,0 +1,55 @@
+<Alloy>
+	<View id="container">
+		<View id="mkKeyboardDoneBtnContainer">
+			<Button id="mkKeyboardDoneBtn" title="DONE" onClick="doDoneBtnClick" />
+		</View>
+		<View id="mkKeyboardView">
+			<View class="mkKeyboardSpacerRow" />
+			<View class="keyboardRow">
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="1" onTouchstart="doNumberBtnClick" />
+				</View>
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="2" onTouchstart="doNumberBtnClick" />
+				</View>
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="3" onTouchstart="doNumberBtnClick" />
+				</View>
+			</View>
+			<View class="keyboardRow">
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="4" onTouchstart="doNumberBtnClick" />
+				</View>
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="5" onTouchstart="doNumberBtnClick" />
+				</View>
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="6" onTouchstart="doNumberBtnClick" />
+				</View>
+			</View>
+			<View class="keyboardRow">
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="7" onTouchstart="doNumberBtnClick" />
+				</View>
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="8" onTouchstart="doNumberBtnClick" />
+				</View>
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="9" onTouchstart="doNumberBtnClick" />
+				</View>
+			</View>
+			<View class="keyboardRow">
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="00" onTouchstart="doNumberBtnClick" />
+				</View>
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="0" onTouchstart="doNumberBtnClick" />
+				</View>
+				<View class="keyboardButtonContainer">
+					<Button class="mkKeyboardNumberBtn" title="<" onTouchstart="doNumberBtnClick" />
+				</View>
+			</View>
+			<View class="mkKeyboardSpacerRow" />
+		</View>
+	</View>
+</Alloy>

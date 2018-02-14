@@ -1,0 +1,126 @@
+"#container": {
+	zIndex: 500,
+	height: 322,
+	bottom: -322
+},
+
+"#mkKeyboardDoneBtnContainer": {
+	top: 0,
+	height: 50,
+	backgroundColor: '#000'
+},
+
+"#mkKeyboardDoneBtn": {
+	width: '100%',
+	height: '100%',
+	font: {
+		fontSize: 15
+	},
+	color: '#FFF',
+	backgroundColor: '#000'
+},
+
+"#mkKeyboardView": {
+	height: 272,
+	bottom: 0,
+	backgroundColor: '#FFF',
+	layout: 'vertical'
+},
+
+".mkKeyboardSpacerRow": {
+	height: 16
+},
+
+".keyboardRow": {
+	height: 60,
+	width: 300,
+	layout: 'horizontal',
+	horizontalWrap: false
+},
+
+".keyboardButtonContainer": {
+	width: 100
+},
+
+".mkKeyboardNumberBtn": {
+	font: {
+		fontSize: 23,
+		fontWeight: 'bold'
+	},
+	color: '#000',
+	width: '100%',
+	height: '100%',
+	backgroundColor: '#FFF'
+}
+
+/*
+ ==================================================================================
+ =   Conditional styles for screens similar to iPhone 5.                          =
+ ==================================================================================
+ */
+
+"#container[if=Ti.Platform.displayCaps.platformHeight<569]": {
+	height: 264,
+	bottom: -264
+},
+
+"#mkKeyboardView[if=Ti.Platform.displayCaps.platformHeight<569]": {
+	height: 224
+},
+
+"#mkKeyboardDoneBtnContainer[if=Ti.Platform.displayCaps.platformHeight<569]": {
+	height: 40
+},
+
+".keyboardRow[if=Ti.Platform.displayCaps.platformHeight<569]": {
+	height: 50
+},
+
+".mkKeyboardSpacerRow[if=Ti.Platform.displayCaps.platformHeight<569]": {
+	height: 12
+},
+
+".mkKeyboardNumberBtn[if=Ti.Platform.displayCaps.platformHeight<569]": {
+	font: {
+		fontSize: 20
+	}
+},
+
+/*
+ ==================================================================================
+ =   Conditional styles to handle short screens.                                  =
+ =   (Hello, low-end Androids and iPhone 4S.)                                     =
+ ==================================================================================
+*/
+
+"#container[if=Ti.Platform.displayCaps.platformHeight<500]": {
+	height: 186,
+	bottom: -186
+},
+
+"#mkKeyboardView[if=Ti.Platform.displayCaps.platformHeight<500]": {
+	height: 156
+},
+
+"#mkKeyboardDoneBtnContainer[if=Ti.Platform.displayCaps.platformHeight<500]": {
+	height: 30
+},
+
+".keyboardRow[if=Ti.Platform.displayCaps.platformHeight<500]": {
+	height: 35,
+	width: 270
+},
+
+".keyboardButtonContainer[if=Ti.Platform.displayCaps.platformHeight<500]": {
+	width: 90
+},
+
+".mkKeyboardSpacerRow[if=Ti.Platform.displayCaps.platformHeight<500]": {
+	height: 8
+},
+
+".mkKeyboardNumberBtn[if=Ti.Platform.displayCaps.platformHeight<500]": {
+	font: {
+		fontSize: 15
+	}
+},

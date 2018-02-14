@@ -1,0 +1,13 @@
+{
+	"id": "ti.moneykeyboard",
+	"name": "Ti.MoneyKeyboard",
+	"description" : "An alloy widget for easily capturing dollar amounts in Titanium.",
+	"author": "Josh Lambert (hi@centrevilletech.com)",
+	"version": "1.0.0",
+	"copyright":"Copyright (c) 2018",
+	"license":"MIT",
+	"min-alloy-version": "1.3",
+	"min-titanium-version":"3.0",
+	"tags":"money, keyboard, keyboards, money keyboard",
+	"platforms":"ios, android"
+}
