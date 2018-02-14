@@ -2,6 +2,8 @@
 
 Alloy Widget for creating a platform-independent money keyboard.
 
+![](keyboardPicture.gif)
+
 Developed by: [Josh Lambert](http://joshlambert.co), lead mobile developer for [Centreville Tech LLC](http://centrevilletech.com).
 
 ### Usage
