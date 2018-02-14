@@ -2,8 +2,7 @@
 
 Introducing Ti.MoneyKeyboard, an Alloy Widget for doing cross platform dollar amount entry in Titanium.
 
-Developed by: [Josh Lambert](http://joshlambert.co)
-Lead Mobile Developer for [Centreville Tech LLC](http://centrevilletech.com)
+Developed by [Josh Lambert](http://joshlambert.co), Lead Mobile Developer at [Centreville Tech LLC](http://centrevilletech.com)
 
 ### Usage
 
