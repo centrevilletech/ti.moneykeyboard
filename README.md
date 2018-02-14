@@ -1,8 +1,9 @@
 # TiMoneyKeyboard [![Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://www.appcelerator.com/titanium/) [![Appcelerator Titanium](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://www.appcelerator.com/alloy/)
 
-Alloy Widget for creating a platform-independent money keyboard.
+Introducing Ti.MoneyKeyboard, an Alloy Widget for doing cross platform dollar amount entry in Titanium.
 
-Developed by: [Josh Lambert](http://joshlambert.co), lead mobile developer for [Centreville Tech LLC](http://centrevilletech.com).
+Developed by: [Josh Lambert](http://joshlambert.co)
+Lead Mobile Developer for [Centreville Tech LLC](http://centrevilletech.com)
 
 ### Usage
 
@@ -11,7 +12,7 @@ Create the widget in XML
 <Alloy>
 	<Window class="container">
 		<Widget src="ti.moneykeyboard" name="widget" id="tiMoneyKeyboard" />
-        <Label text="0.00" id="moneyValueLbl" />
+        	<Label text="0.00" id="moneyValueLbl" />
 	</Window>
 </Alloy>
 ```
@@ -34,9 +35,9 @@ $.tiMoneyKeyboard.setActiveLabel($.moneyValueLbl); // Set what label we should b
 
 ## Credits
 
-* Hans Knöchel (@hansemannnn) for going above and beyond for the Titanium developer community time and time again.
-* Jason Kneen (@jasonkneen) for producing a lot of great community material, including the [Titanium Talk](https://www.appcelerator.com/blog/2017/08/a-new-podcast-for-titanium-developers/) podcast.
-* Fokke Zandbergen (@FokkeZB) for tons of useful modules and documentation that helped me learn a lot about Titanium.
+* Hans Knöchel ([@hansemannnn](https://twitter.com/hansemannnn)) for going above and beyond for the Titanium developer community time and time again.
+* Jason Kneen ([@jasonkneen](https://twitter.com/jasonkneen)) for producing a lot of great community material, including the [Titanium Talk](https://www.appcelerator.com/blog/2017/08/a-new-podcast-for-titanium-developers/) podcast.
+* Fokke Zandbergen ([@FokkeZB](https://twitter.com/FokkeZB)) for tons of useful modules and documentation that helped me learn a lot about Titanium.
 
 ## License
 
